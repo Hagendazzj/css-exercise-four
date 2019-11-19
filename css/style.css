@@ -1,4 +1,14 @@
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
 }
+
+    .baku-image {
+        background-image: "image(images/Baku.jpg)"
+    }
