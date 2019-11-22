@@ -7,48 +7,48 @@ body {
 
 }
 .container {
-  margin: 20px auto;
-  width: 90%;
+  margin: 10px auto;
+  width: 75%;
 }
-    img {
-    width:20em;   
+ img {
+  width: 100%;
+  height: auto;
 }
 
  div {
   background-color: #dadada;
+  float:none;
   margin: 1% 0;
   width: 100%;
   padding: 10px 10px;
 } 
 
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 900px){
-   div {
-    margin: 1%;
-    width: 22%;
-  }
-}
-    
-   h2 {
+h2 {
     text-align: center;
     position:absolute;
-    padding: 2.4em;
+    padding: 1.2em;
     font-family: Allerta;
-    font-size: 1.2em;
-       
-    } 
+    font-size: 1.2em;  
+} 
+
 h1 {
  text-align: center;
  font-weight: 300;
  font-family: Allerta;
- font-size: 2em;
-    
-    
+ font-size: 2em;  
 }
 
+@media screen and (min-width: 35em){
+ .col {
+     float: left;
+   width: 40%;
+     padding: .5em;
+ }
+}
+@media screen and (min-width: 56em){
+ .col {
+     float: left;
+   width: 20%;
+     padding: .5em;
+ }
+}
