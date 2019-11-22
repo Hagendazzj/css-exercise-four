@@ -11,7 +11,7 @@ body {
   width: 90%;
 }
     img {
-    width:40em;   
+    width:20em;   
 }
 
  div {
@@ -22,14 +22,14 @@ body {
 } 
 
 @media screen and (min-width: 575px){
-   .conatiner {
+   div {
     margin: 1%;
     width: 50%;
   }
 }
 
 @media screen and (min-width: 900px){
-   .container {
+   div {
     margin: 1%;
     width: 22%;
   }
@@ -40,14 +40,14 @@ body {
     position:absolute;
     padding: 2.4em;
     font-family: Allerta;
-    font-size: 4em;
+    font-size: 1.2em;
        
     } 
 h1 {
  text-align: center;
  font-weight: 300;
  font-family: Allerta;
- font-size: 4em;
+ font-size: 2em;
     
     
 }
